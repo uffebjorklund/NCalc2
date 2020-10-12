@@ -57,7 +57,7 @@ namespace NCalc.Domain
             Type = ValueType.String;
         }
 
-        public ValueExpression(int value)
+        public ValueExpression(long value)
         {
             Value = value;
             Type = ValueType.Integer;
